@@ -1,0 +1,18 @@
+name: "Bump Release Stream Version"
+description: "A github action that allows the automatic bumping of version(s) depending on release streams."
+inputs:
+  extendedTag:
+    description: "The extended tag of the semantic version (comes after the - at the end of the version)"
+    required: false
+    default: ""
+
+  who-to-greet: # id of input
+    description: "Who to greet"
+    required: false
+    default: ""
+outputs:
+  version: # id of output
+    description: "The full version number as will be specified in the package.json"
+runs:
+  using: "node16"
+  main: "src/index.js"

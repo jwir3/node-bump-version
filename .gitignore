@@ -1,0 +1,2 @@
+# Github Actions need to have node_modules packaged with them
+#node_modules/**

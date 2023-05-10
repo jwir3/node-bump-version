@@ -1,0 +1,14 @@
+{
+  "name": "node-bump-version",
+  "version": "1.0.0",
+  "description": "A github action that allows the automatic bumping of version(s) depending on release streams.",
+  "main": "src/index.js",
+  "repository": "git@github.com:jwir3/node-bump-version",
+  "author": "Scott Johnson <jaywir3@gmail.com>",
+  "license": "MPL-2.0",
+  "private": false,
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
+  }
+}
